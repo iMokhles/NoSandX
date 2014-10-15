@@ -10,9 +10,9 @@ How to use this? The actual commands are executed by the daemon which does setui
 
 **Installation**
 
-<pre>
-#import **<nosandx/nosandx.h>**
-</pre>
+
+#import <nosandx/nosandx.h>
+
 
 **Usage**
 
