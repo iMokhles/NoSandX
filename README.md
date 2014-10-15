@@ -11,7 +11,7 @@ How to use this? The actual commands are executed by the daemon which does setui
 **Installation**
 
 <pre>
-#import <nosandx/nosandx.h>
+#import **<nosandx/nosandx.h>**
 </pre>
 
 **Usage**
