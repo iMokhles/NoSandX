@@ -1,0 +1,9 @@
+#!/bin/sh
+chown root:wheel /System/Library/LaunchDaemons/com.imokhles.nosandxdlaunch.plist
+chmod 644 /System/Library/LaunchDaemons/com.imokhles.nosandxdlaunch.plist
+
+chmod 4755 /usr/libexec/nosandxd
+chown root:wheel /usr/libexec/nosandxd
+
+launchctl load /System/Library/LaunchDaemons/com.imokhles.nosandxdlaunch.plist
+exit 0
