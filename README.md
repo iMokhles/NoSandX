@@ -1,8 +1,9 @@
 NoSandX
 =======
 
-Access filesystem from Sandbox
+Access filesystem from Sandbox<br>
 This port of [UnBox](https://github.com/H2CO3/Unbox).  to add theos, iOS7 and arm64 support.
+
 <pre>
 NoSandX is a daemon and client library, implemented using CPDistributedMessagingCenter, to make various filesystem operations possible for restricted/sandboxed applications. Having a similar functionality to as of Sandcastle, NoSandX makes it possible to actually execute filesystem operations as if under user root. Unbox also doesn't hook into Springboard (as it has a separate daemon), so it won't cause your iPhone's UI to lag or become unresponsive.
 How to use this? The actual commands are executed by the daemon which does setuid(0) to run under user root. You communicate with it using the client library. The synopsys of the commands follows.
