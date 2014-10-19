@@ -43,3 +43,8 @@ How to use this? The actual commands are executed by the daemon which does setui
 
 - (void) createDirectory:(NSString *)dir creates a directory at the path specified by 'dir' (including the directory's name as well!)
 </pre>
+
+Special Thanks
+==============
+[@H2CO3](https://github.com/H2CO3) - for the his hard work in [UnBox](https://github.com/H2CO3/Unbox)
+[@rpetrich](https://github.com/rpetrich) - for [RocketBootstrap](https://github.com/rpetrich/RocketBootstrap)
