@@ -46,5 +46,5 @@ How to use this? The actual commands are executed by the daemon which does setui
 
 Special Thanks
 ==============
-[@H2CO3](https://github.com/H2CO3) - for the his hard work in [UnBox](https://github.com/H2CO3/Unbox)
+[@H2CO3](https://github.com/H2CO3) - for the his hard work in [UnBox](https://github.com/H2CO3/Unbox)<br>
 [@rpetrich](https://github.com/rpetrich) - for [RocketBootstrap](https://github.com/rpetrich/RocketBootstrap)
