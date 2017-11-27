@@ -27,9 +27,7 @@ after-nosandxd-stage::
 	$(ECHO_NOTHING)echo " Adding Permissions"$(ECHO_END)
 	$(ECHO_NOTHING)mkdir -p $(THEOS_STAGING_DIR)/Library/LaunchDaemons/ $(ECHO_END)
 	$(ECHO_NOTHING)cp com.imokhles.nosandxdlaunch.plist $(THEOS_STAGING_DIR)/Library/LaunchDaemons/ $(ECHO_END)
-	# $(ECHO_NOTHING)sudo chown root:wheel $(THEOS_STAGING_DIR)/Library/LaunchDaemons/com.imokhles.nosandxdlaunch.plist$(ECHO_END)
 	$(ECHO_NOTHING)chmod 644 $(THEOS_STAGING_DIR)/Library/LaunchDaemons/com.imokhles.nosandxdlaunch.plist$(ECHO_END)
-	# $(ECHO_NOTHING)sudo chown root:wheel $(THEOS_STAGING_DIR)/usr/libexec/nosandxd$(ECHO_END)
 	$(ECHO_NOTHING)chmod 4755 $(THEOS_STAGING_DIR)/usr/libexec/nosandxd$(ECHO_END)
 	$(ECHO_NOTHING)echo " Permissions Finished"$(ECHO_END)
 
