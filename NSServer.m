@@ -14,15 +14,17 @@
 
 int main(int argc, char *argv[])
 {
+	NSLog(@"NSServer: NSServer is launched!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
 	setuid(0);
 	pid_t pid = fork();
+	NSLog(@"NSServer: NSServer pid fork!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!%d", pid);
 	if (pid < 0)
 		return 1;
 
 	if (pid > 0)
 		return 0;
 
-	// if pid == 0, then we are the child process
+	// if pid == 0, then we are the child process 
 	// keep chmod() mask unchanged
 	umask(0);
 
