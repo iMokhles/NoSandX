@@ -16,14 +16,16 @@ int main(int argc, char *argv[])
 {
 	setuid(0);
 	pid_t pid = fork();
+
 	if (pid < 0)
 		return 1;
 
 	if (pid > 0)
 		return 0;
 
-	// if pid == 0, then we are the child process
+	// if pid == 0, then we are the child process 
 	// keep chmod() mask unchanged
+
 	umask(0);
 
 	// not to become zombie

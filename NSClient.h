@@ -17,7 +17,7 @@
 #import <Foundation/Foundation.h>
 #import <CoreFoundation/CoreFoundation.h>
 #import <AppSupport/CPDistributedMessagingCenter.h>
-#import <Rocket/rocketbootstrap.h>
+#import "Rocket/rocketbootstrap.h"
 
 @interface NSClient: NSObject {
 	CPDistributedMessagingCenter *center;
