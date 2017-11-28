@@ -10,10 +10,6 @@
         <string>-c</string>
         <string>/usr/libexec/nosandxdlaunch</string>
     </array>
-    <key>StandardOutPath</key>
-    <string>/User/zeus-log/zeus-output.txt</string>
-    <key>StandardErrorPath</key>
-    <string>/User/zeus-log/zeus-errors.txt</string>
 	<key>RunAtLoad</key>
 	<true/>
 	<key>KeepAlive</key>
